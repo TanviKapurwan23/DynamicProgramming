@@ -4,7 +4,6 @@ class Solution
     //Function to find the nth fibonacci number using bottom-up approach.
     long long findNthFibonacci(int number)
     {
-        // Your Code Here
         vector<long long> f(number + 1);
         
         f[0] = 0, f[1] = 1;
